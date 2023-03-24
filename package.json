@@ -1,0 +1,14 @@
+{
+  "name": "@pzhiq/guide-manager",
+  "version": "0.0.1",
+  "description": "教学管理器 ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pzhiq",
+  "license": "ISC",
+  "dependencies": {
+    "@pzhiq/esm": "^1.0.4"
+  }
+}

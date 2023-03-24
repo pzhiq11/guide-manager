@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir":"./dist",
+    "sourceMap": false,
+    "module": "CommonJS",
+    "target": "es5",
+    // "allowJs": true,
+    "jsx": "preserve",
+    "jsxFactory": "createElement",
+    "moduleResolution": "node",
+    "allowUnusedLabels": true,
+    "declaration": true,
+    "strict": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*", "typings/*"],
+      "@common/*": ["./src/common/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@services/*": ["./src/services/*"],
+      "@store/*": ["./src/store/*"],
+      "lib": ["DOM"]
+    },
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "scripthost",
+      "dom.iterable",
+      "es2018.promise",
+      "es2017.object"
+    ],
+    // "types": ["node"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true
+  },
+  "include": ["src/**/*", "test/test.ts", "test/test.ts"],
+  "exclude": ["./node_modules","test/*"]
+}
