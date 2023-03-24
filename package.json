@@ -9,6 +9,7 @@
   "author": "pzhiq",
   "license": "ISC",
   "dependencies": {
-    "@pzhiq/esm": "^1.0.4"
+    "@pzhiq/esm": "^1.0.4",
+    "@pzhiq/guide-manager": "^0.0.1"
   }
 }
