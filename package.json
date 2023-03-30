@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@pzhiq/esm": "^1.0.6"
-  }
+  },
+  "keywords": ["Guide","Manager","Tutorial"]
 }
