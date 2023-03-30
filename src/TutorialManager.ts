@@ -86,25 +86,6 @@ function isToday(s: string) {
   return s === getFormatDate();
 }
 
-// let userId = '';
-
-// const fetchUserId = async () => {
-//   try {
-//     const res = await User.isLogin();
-//     userId = res?.userId;
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-
-// function setStorage(key: string, item: string) {
-//   storage.setItemSync(userId + key, item);
-// }
-
-// function getStorage(key: string) {
-//   console.log('get tut storeage', userId);
-//   return storage.getItemSync(userId + key);
-// }
 
 export class TutorialManager {
   private storageName: string;

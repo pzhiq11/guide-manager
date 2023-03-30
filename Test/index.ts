@@ -29,6 +29,9 @@ GuideManager.addSequenceTutorial([{
         //开始教学条件 布尔值 比如 level>5
         return true
     },
+    // canJumpOver() {
+    //     return true
+    // },
     onStart() {
         console.log("Onstart doing something");
     },
@@ -51,6 +54,9 @@ GuideManager.addEventTutorial([{
     canStart: () => {
         return true;
     },
+    // canJumpOver() {
+    //     return true
+    // },
     onStart() {
         console.log("事件教学开始");
     },

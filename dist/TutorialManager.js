@@ -57,22 +57,6 @@ function getFormatDate() {
 function isToday(s) {
     return s === getFormatDate();
 }
-// let userId = '';
-// const fetchUserId = async () => {
-//   try {
-//     const res = await User.isLogin();
-//     userId = res?.userId;
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-// function setStorage(key: string, item: string) {
-//   storage.setItemSync(userId + key, item);
-// }
-// function getStorage(key: string) {
-//   console.log('get tut storeage', userId);
-//   return storage.getItemSync(userId + key);
-// }
 var TutorialManager = /** @class */ (function () {
     function TutorialManager() {
         var _this = this;
